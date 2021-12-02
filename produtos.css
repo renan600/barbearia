@@ -8,69 +8,54 @@
 /*Produtos*/
 
 ul.produtos{
-    min-width:300px;
-    max-width: 940px;
+    min-width:280px;
+    max-width:940px;
     margin: auto;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px;
+    
+
 }
-
-
-ul.produtos li.itens-barbearia {
+li.itens-barbearia{
     display: inline-block;
     text-align: center;
+    vertical-align:top;  
     width:30%;
-    vertical-align: top;
     margin: 0px 1.1%;
+    border: 2px solid black;
+    border-radius: 10px;
     padding: 30px 10px 20px 10px;
     box-sizing: border-box;
-    border: 2px solid black;
-    border-radius:10px
 }
-
-ul.produtos li.itens-barbearia:hover{
-    border: 2px solid goldenrod;
+li.itens-barbearia:hover{
+    border-color: goldenrod;
 }
-ul.produtos li.itens-barbearia:active{
-    border: 2px solid green;
-}
-ul.produtos li.itens-barbearia:hover h2{
+li.itens-barbearia:hover h2{
     color: goldenrod;
-    font-size:31px;
+    font-size: 31px;
 }
-ul.produtos li.itens-barbearia:active h2{
-    font-size:31px;
+ul.produtos  h2{
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
 }
-
 .img-produtos{
     width: 100%;
 }
-ul.produtos h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-
 p.produto-descricao{
-    font-size: 18px;
+    font-size:18px;
 }
-
-
 p.preco{
-    font-size:22px;
+    font-size: 22px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top:10px;
 }
 
-@media screen and (max-width:900px){
-
+@media screen and (max-width:900px) {
     li.itens-barbearia{
-        height:415px; 
+        height:415px;
     }
-
 }
-  
-
-@media screen  and (max-width:550px){
+@media screen and (max-width:550px) {
     li.itens-barbearia{
         height:300px;
         
@@ -85,9 +70,8 @@ p.preco{
     p.preco{
         font-size:15px;
     }
-    ul.produtos li.itens-barbearia:hover h2{
+    li.itens-barbearia:hover h2{
     color: goldenrod;
     font-size:16px;
     }
 }
-
