@@ -38,7 +38,7 @@ nav.menu a:hover{
     text-decoration: underline;
     color: goldenrod;
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:570px){
     nav.menu{
         position:static;
         text-align: center;
@@ -57,9 +57,7 @@ nav.menu a:hover{
 }
 
 /*Corpo*/
-h1{
-    padding: 20px;
-}
+
 
 img#imagem{
     width: 100%;
@@ -90,6 +88,7 @@ p#frase-destaque{
 li.lista{
     font-style: italic;
     font-size: 20px;
+    width: 250px;
 }
 
 article#beneficios{
@@ -98,16 +97,45 @@ article#beneficios{
 }
 
 
-ul#lista-beneficios{
+ul.lista-beneficios{
     display:inline-block;
     vertical-align:top;
-    width:25%;
-    margin-right:15%;
+    
+}
+div.img-teste{
+    min-width:280px;
+    max-width:700px;
+    display: inline-block;
+    position:sticky;
+    left:40%;
+}
+img.imagem-beneficio{
+    width:100%;
+}
 
+@media screen and (max-width:975px) {
+    div.img-teste{
+        position: static;
+        display: block;
+        margin: auto;
+        
+    }
+    ul.lista-beneficios{
+        display: block;
+        margin:0px auto 20px auto;
+        width: 250px;
+        
+        
+        
+
+    }
+    li.lista{
+        list-style: none; 
+        width: 230px; 
+        margin-bottom:5px;
+    }
 }
-img#imagem-beneficio{
-    width:50%;
-}
+
 
 /*Rodapé*/
 
