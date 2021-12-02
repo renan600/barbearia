@@ -63,9 +63,12 @@ form label{
         font-weight: bold;
         text-transform: uppercase;
 }
+fieldset{
+    padding: 10px 20px ;
+}
 
 
  
 
- 
+}
 
