@@ -51,25 +51,21 @@ form label{
 }
 
 @media screen and (max-width:570px) {
+    form{
+        width:70%;
+     }
     .input-padrao{
         width:100%;
-
     }
-    form{
-       width:70%;
+    fieldset{
+        padding:20px 30px 10px 30px;
+        width:95%;
     }
     legend{
         font-size:10px;
         font-weight: bold;
         text-transform: uppercase;
-}
-    fieldset{
-    padding:20px 30px 10px 30px;
-    width:90%;
     }
-
-
- 
 
 }
 
