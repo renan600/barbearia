@@ -67,5 +67,9 @@ form label{
         text-transform: uppercase;
     }
 
+    .enviar{
+        margin-top: 15px;
+        width:100%;
+    }
 }
 
