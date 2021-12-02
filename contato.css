@@ -51,7 +51,7 @@ form label{
 }
 
 @media screen and (max-width:570px) {
-    .input-padrao , fieldset{
+    .input-padrao{
         width:100%;
 
     }
@@ -65,7 +65,7 @@ form label{
 }
     fieldset{
     padding:20px 30px 10px 30px;
-    width:100%;
+    width:90%;
     }
 
 
