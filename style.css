@@ -1,8 +1,60 @@
 @charset "utf-8";
 *{
-    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Menu e cabeçalho*/
+header{
+    background-color: #BBBBBB;
+    padding: 20px 10px 20px 10px;
+}
+div#cabecalho{
+    max-width: 1200px;
+    min-width: 280px;
+    position: relative;
+    margin: auto;
+}
+nav.menu{
+    position: absolute;
+    top:120px;
+    right:0px;
+    
+}
+li.lista-menu{
+    display:inline;
+    margin-left: 10px;  
+}
+nav.menu a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.4em;
+    padding: 10px;
+    
+}
+nav.menu a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+@media screen and (max-width:550px){
+    nav.menu{
+        position:static;
+        text-align: center;
+        display: block;
+    }
+    
+    img.logo{
+        margin: auto;
+        display: block;
+    }
+    a.link-menu{
+        background-color: #60606098;
+        display: block;
+        border-radius: 20px;
+   }
+}
+
+/*Corpo*/
 h1{
     padding: 20px;
 }
@@ -43,7 +95,7 @@ article#beneficios{
 }
 
 
-ul{
+ul#lista-beneficios{
     display:inline-block;
     vertical-align:top;
     width:25%;
@@ -52,4 +104,18 @@ ul{
 }
 img#imagem-beneficio{
     width:50%;
+}
+
+/*Rodapé*/
+
+footer{
+    text-align: center;
+    background-image: url(imagens-produto/bg.jpg);
+    padding: 20px 0px;
+}
+
+p#copy{
+    color: white;
+    font-size: 13px;
+
 }
