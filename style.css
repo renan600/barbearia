@@ -89,11 +89,18 @@ li.lista{
     font-style: italic;
     font-size: 20px;
     width: 250px;
+    list-style: none;
+}
+li.lista::before{
+    content: '\1F5F8';
 }
 
 article#beneficios{
     background-color: white;
     padding:20px 10px 20px 10px;
+    min-width: 280px;
+    max-width:1200px;
+    margin: auto;
 }
 
 
@@ -107,7 +114,7 @@ div.img-teste{
     max-width:700px;
     display: inline-block;
     position:sticky;
-    left:40%;
+    left:50%;
 }
 img.imagem-beneficio{
     width:100%;
@@ -131,7 +138,7 @@ img.imagem-beneficio{
     }
     li.lista{
         list-style: none; 
-        width: 230px; 
+        width: 250px; 
         margin-bottom:5px;
     }
 }
