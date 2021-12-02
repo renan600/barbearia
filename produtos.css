@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*Cabeçalho e Menu*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #BBBBBB;
+    padding: 20px 10px 20px 10px;
+}
+div#cabecalho{
+    max-width: 1200px;
+    min-width: 280px;
+    position: relative;
+    margin: auto;
+}
+nav.menu{
+    position: absolute;
+    top:120px;
+    right:0px;
+    
+}
+ul li{
+    display:inline;
+    margin-left: 10px;  
+}
+nav.menu a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.4em;
+    padding: 10px;
+    
+}
+nav.menu a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+@media screen and (max-width:550px){
+    nav.menu{
+        position:static;
+        text-align: center;
+        display: block;
+    }
+    
+    img.logo{
+        margin: auto;
+        display: block;
+    }
+    a.link-menu{
+        background-color: #60606098;
+        display: block;
+        border-radius: 20px;
+   }
+}
+
+/*Produtos*/
+
+ul.produtos{
+    min-width:300px;
+    max-width: 940px;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+
+ul.produtos li.itens-barbearia {
+    display: inline-block;
+    text-align: center;
+    max-width:30%;
+    vertical-align: top;
+    margin: 0px 1.1%;
+    padding: 30px 10px 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius:10px
+}
+
+ul.produtos li.itens-barbearia:hover{
+    border: 2px solid goldenrod;
+}
+ul.produtos li.itens-barbearia:active{
+    border: 2px solid green;
+}
+ul.produtos li.itens-barbearia:hover h2{
+    color: goldenrod;
+    font-size:31px;
+}
+ul.produtos li.itens-barbearia:active h2{
+    font-size:31px;
+}
+
+.img-produtos{
+    width: 100%;
+}
+ul.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+p.produto-descricao{
+    font-size: 18px;
+}
+
+
+p.preco{
+    font-size:22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:900px){
+
+    li.itens-barbearia{
+        height:400px;
+    
+    }
+   
+    
+}
+  
+
+@media screen  and (max-width:550px){
+    li.itens-barbearia{
+        height:300px;
+        
+    }
+    ul.produtos h2{
+        font-size:20px;
+    }
+   
+    p.produto-descricao{
+        font-size:13px;
+    }
+
+    ul.produtos li.itens-barbearia:hover h2{
+    color: goldenrod;
+    font-size:20px;
+    }
+}
