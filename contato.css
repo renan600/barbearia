@@ -13,17 +13,17 @@ form{
     margin-left: 20px;
 }
 
-form label , form p{
+form label{
     display: block;
     font-size:20px;
     margin-bottom: 10px;
 }
 
-.input-padrao{
+.input-padrao , fieldset{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px 10px 25px;
-    width: 50%;
+    width:50%;
     
 }
 
@@ -31,3 +31,41 @@ form label , form p{
     margin-top:20px;
     margin-bottom:20px ;
 }
+
+.enviar{
+    width: 40%;
+    padding:15px 0px;
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:10px;
+    border: none;
+    text-transform: uppercase;
+    transition:0.5s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-image: linear-gradient(to right, #ffb347 50%, #ffcc33  10%, #ffb347  30%);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:570px) {
+    .input-padrao , fieldset{
+        width:100%;
+
+    }
+    form{
+       width:70%;
+    }
+    legend{
+        font-size:10px;
+        font-weight: bold;
+        text-transform: uppercase;
+}
+
+
+ 
+
+ 
+
