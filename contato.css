@@ -52,7 +52,7 @@ form label{
 
 @media screen and (max-width:570px) {
     form{
-        width:70%;
+        width:75%;
      }
     .input-padrao{
         width:100%;
