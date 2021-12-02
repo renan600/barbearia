@@ -113,7 +113,7 @@ img.imagem-beneficio{
     width:100%;
 }
 
-@media screen and (max-width:975px) {
+@media screen and (max-width:990px) {
     div.img-teste{
         position: static;
         display: block;
