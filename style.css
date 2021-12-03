@@ -91,9 +91,7 @@ li.lista{
     width: 250px;
     list-style: none;
 }
-li.lista::before{
-    content: '\1F5F8';
-}
+
 
 article#beneficios{
     background-color: white;
