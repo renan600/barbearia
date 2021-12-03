@@ -63,7 +63,7 @@ img#imagem{
     width: 100%;
 }
 
-article#principal{
+section#principal{
     background-color: #CCCCCC;
     padding:30px;
     margin-top:-5px;
@@ -93,7 +93,7 @@ li.lista{
 }
 
 
-article#beneficios{
+section#beneficios{
     background-color: white;
     padding:20px 10px 20px 10px;
     min-width: 280px;
