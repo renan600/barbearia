@@ -6,7 +6,7 @@ main{
     margin: auto;
     
 }
-
+/*Contato*/
 form{
     margin-top:40px;
     margin-bottom:40px;
@@ -66,6 +66,25 @@ select{
 }
 
 
+/*Tabela*/
+
+table{
+    margin: 20px 0px 70px 33px;
+    border-spacing: 0px;
+    
+    
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+    
+}
+td , th{
+    border: 1px solid black;
+    padding:8px 15px;
+}
+
 @media screen and (max-width:570px) {
     form{
         width:75%;
@@ -89,6 +108,8 @@ select{
         margin-top: 15px;
         width:100%;
     }
-   
+   table{
+       margin-left:22px;
+   }
 }
 
