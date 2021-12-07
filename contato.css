@@ -4,14 +4,12 @@ main{
     min-width:280px;
     max-width:940px;
     margin: auto;
+    padding:30px 20px;
     
 }
 /*Contato*/
 form{
-    margin-top:40px;
-    margin-bottom:40px;
-    margin-left:30px;
-    margin-right:30px;
+    max-width:600px;
 }
 
 form label{
@@ -23,8 +21,8 @@ form label{
 .input-padrao  {
     display: block;
     margin-bottom: 20px;
-    padding: 10px 25px 10px 25px;
-    width:50%;
+    padding: 10px 0px 10px 0px;
+    width:100%;
     
 }
 
@@ -33,6 +31,19 @@ form label{
     margin-bottom:20px ;
 }
 
+fieldset{
+    border: none;
+    margin-top: 10px;
+}
+legend{
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+select{
+    padding:5px 10px 5px 10px;
+    border-radius: 5px;
+}
 .enviar{
     width:50%;
     padding:15px 0px;
@@ -51,27 +62,14 @@ form label{
     transform: scale(1.1);
 }
 
-fieldset{
-    border: none;
-    margin-top: 10px;
-}
-legend{
-    margin-bottom: 10px;
-    font-size: 20px;
-    
-}
-select{
-    padding:5px 10px 5px 10px;
-    border-radius: 5px;
-}
+
 
 
 /*Tabela*/
 
 table{
-    margin: 20px 0px 70px 33px;
+    padding:40px 0px 0px 0px;
     border-spacing: 0px;
-    
     
 }
 thead{
@@ -86,30 +84,29 @@ td , th{
 }
 
 @media screen and (max-width:570px) {
+    main{
+        min-width:280px;
+        max-width:940px;
+        margin: auto;
+        padding:30px 10px;
+    }
     form{
-        width:75%;
-        margin-top:40px;
-        margin-bottom:40px;
-        margin-left:20px;
-        margin-right:20px;
+        width:100%;
     }
     .input-padrao{
         width:100%;
     }
     fieldset{
-        width:95%;
+        width:100%;
         border: none;
     }
-    legend{
-        width:310px;
-    }
-
     .enviar{
         margin-top: 15px;
         width:100%;
     }
-   table{
-       margin-left:22px;
-   }
+    .enviar:hover{
+        transform: scale(1.0);
+    }
+   
 }
 
