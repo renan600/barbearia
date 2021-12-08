@@ -7,25 +7,28 @@
 /*Corpo*/
 main{
     margin-top:-5px;
-    background-image: linear-gradient(to top, #606060 , #cccccc73);
+    background-image: linear-gradient(to top, #606060d2 , #cccccc00);
 }
 
 .imagem-baner{
     width: 100%;
 }
-section.principal{
+.principal{
     min-width:280px;
     max-width:1200px;
     margin: auto;
     padding:30px 10px 20px 10px;
+    
 }
 .titulo-principal{
     text-align: center;
     font-size:2em;
     padding-bottom:20px;
     clear: left;
-    font-weight: normal;
+    font-weight:bold;
+    color: rgb(0, 0, 0);
 }
+
 .principal p {
     margin:0 0 1em;
     line-height: 1.5em;
@@ -92,8 +95,13 @@ section.mapa p {
 
 .imagem-beneficio{
     width:60%;
+    transition: 0.5s;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.541);
 }
-
+.imagem-beneficio:hover{
+    opacity:0.3;
+    
+}
 /*video*/
 
 .video{
@@ -114,10 +122,17 @@ section.mapa p {
     .imagem-beneficio{
         width:100%;
     }
-   .lista-beneficios{
+    
+    .lista-beneficios{
         margin-bottom: 20px;
         width: 100%;
-        text-align: center;
+        box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.459);
+        padding:20px 0px;
+    }
+    .lista{
+        margin: auto;
+        display: block;
+        width:277px;
     }
     .video{
         position:relative;
