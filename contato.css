@@ -20,7 +20,7 @@ label{
 .label-radio{
     margin-bottom:10px;
     font-size:19px;
-    width: 120px;
+   
 }
 fieldset{
     border: none;
@@ -84,9 +84,7 @@ th , td {
     label{
         font-size: 18px;
     }
-    .label-radio{
-        width:130px;
-    }
+    
     .btn{
         width:100%;
         margin:30px 0px;
