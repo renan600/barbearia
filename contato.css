@@ -1,112 +1,91 @@
 @charset "utf-8";
-
 main{
-    min-width:280px;
-    max-width:940px;
+    min-width: 280px;
+    max-width: 940px;
     margin: auto;
-    padding:30px 20px;
-    
-}
-/*Contato*/
-form{
-    max-width:600px;
+    padding: 20px;
 }
 
-form label{
+label{
+    font-size: 20px;
+    display:block;
+}
+.input-padrao , textarea{
     display: block;
-    font-size:20px;
-    margin-bottom: 10px;
+    margin: 10px 0px 20px 0px;
+    width:50%;
+    padding:11px 20px ;
+    font-size:17px;
 }
-
-.input-padrao  {
-    display: block;
-    margin-bottom: 20px;
-    padding: 10px 0px 10px 0px;
-    width:100%;
-    
+.label-radio{
+    margin-bottom:10px;
+    font-size:19px;
+    width: 120px;
 }
-
-#checkbox{
-    margin-top:20px;
-    margin-bottom:20px ;
-}
-
 fieldset{
     border: none;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 legend{
-    margin-bottom: 10px;
-    font-size: 20px;
+    font-size:20px;
+    margin-bottom:15px;
     
 }
 select{
-    padding:5px 10px 5px 10px;
-    border-radius: 5px;
+    padding:3px 10px;
+    margin-bottom: 20px;
+    
 }
-.enviar{
-    width:50%;
-    padding:15px 0px;
-    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius:10px;
+
+.btn{
+    padding: 15px 0px;
+    width:40%;
+    margin:30px 25px ;
+    border-radius: 10px;
     border: none;
     text-transform: uppercase;
-    transition:0.5s all;
+    font-size:18px;
+    background-image: linear-gradient(to right, #F2994A 0%, #F2C94C  51%, #F2994A  100%);
+    transition: 0.5s all;
     cursor: pointer;
+    font-weight: bold;
+    color: white;
 }
-.enviar:hover{
-    background-image: linear-gradient(to right, #ffb347 50%, #ffcc33  10%, #ffb347  30%);
+
+.btn:hover{
     transform: scale(1.1);
 }
 
-
-
-
-/*Tabela*/
-
 table{
-    padding:40px 0px 0px 0px;
     border-spacing: 0px;
-    
+    margin-left:28px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 thead{
-    background-color: #555555;
+    background-color: #606060;
     color: white;
     font-weight: bold;
-    
 }
-td , th{
+th , td {
+    padding: 10px 20px;
     border: 1px solid black;
-    padding:8px 15px;
 }
 
-@media screen and (max-width:570px) {
-    main{
-        min-width:280px;
-        max-width:940px;
-        margin: auto;
-        padding:30px 10px;
-    }
-    form{
-        width:100%;
-    }
-    .input-padrao{
-        width:100%;
-    }
-    fieldset{
-        width:100%;
-        border: none;
-    }
-    .enviar{
-        margin-top: 15px;
-        width:100%;
-    }
-    .enviar:hover{
-        transform: scale(1.0);
-    }
-   
-}
+/*Mobile*/
 
+@media screen and (max-width:560px) {
+    .input-padrao , textarea{
+        width:84%;
+    }
+    legend{
+        font-size:18px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .btn{
+        width:100%;
+        margin:30px 0px;
+    }
+}
